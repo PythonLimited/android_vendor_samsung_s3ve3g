@@ -43,6 +43,8 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/hw/audio.a2dp.default.so:lib/hw/audio.a2dp.default.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/bluetooth.default.so:system/blib/hw/bluetooth.default.so \
     $(LOCAL_PATH)/proprietary/bin/btnvtool:system/bin/btnvtool \
     $(LOCAL_PATH)/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     $(LOCAL_PATH)/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
